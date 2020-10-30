@@ -1,0 +1,6 @@
+In this folder we compare the deconvolution of sparse peaks when the convolution kernel is the Dirichlet using 3 different approaches
+1) adaptive grid using L1-norm :Adaptive Superresolution in Deconvolution of Sparse Peaks
+2) Music:  W. Liao, A. Fannjiang, MUSIC for Single-Snapshot Spectral Estimation: Stability and Super-resolution, 2014
+3) SDP (semidefinite programming): Super-resolution from noisy data"  by E. Candes and C. Fernandez-Granda. 
+
+Download CVX to run this script.
