@@ -1,0 +1,4 @@
+In this folder, we have included the codes to compare 
+compressed sensing STORM (as it is avaible from the web-page: https://users.ece.cmu.edu/~yuejiec/publications.html) with the adaptive compressed sensing proposed in https://arxiv.org/abs/2007.05636.
+
+To compare the two algorithms run Script_compare_adaptiveCS_standardCD.
