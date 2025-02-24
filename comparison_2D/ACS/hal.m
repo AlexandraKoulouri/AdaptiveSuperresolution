@@ -5,11 +5,13 @@ function c_hat = hal(A,b,lambda);
 %this code is based on the Hierarchical adaptive lasso (see Murphy's book:
 %Machine Learning: A Probabilistic Perspective)
 
-%this code was created by A. Koulouri 5.5.2019
+%this code was created by A. Koulouri 5.5.2019, updated in 24.2.2025
+
+%lambda takes values in (0,1) interval
 
 lambda =lambda*find_lambdamax_l1_ls(A',b); %adjust the regularization parameter (maybe in the future!)
-kappa = lambda;
 beta = 0.0001;
+kappa = lambda*beta-1;
 
 c_hat_old = zeros(size(A,2),1)+1e6;
 stop_cond = false;
